@@ -21,7 +21,7 @@ Here are some screenshots of the application in action:
     <img src="assets/skynet-register-page.png" alt="Register Page" width="300" style="margin: 10px;"/>
     <img src="assets/skynet-home-page.png" alt="Home Page" width="300" style="margin: 10px;"/>
     <img src="assets/skynet-chat.png" alt="Chat Page" width="300" style="margin: 10px;"/>
-    <img src="assets/gemini-chat.png" alt="Gemini Page" width="300" style="margin: 10px;"/>
+    <img src="assets/skynet-gemini-chat.png" alt="Gemini Page" width="300" style="margin: 10px;"/>
 </div>
 
 ## Conclusion
