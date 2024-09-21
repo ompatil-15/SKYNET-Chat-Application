@@ -12,4 +12,4 @@ final String PLACEHOLDER_PFP =
 final String DEFAULT_PFP_URL =
     "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg";
 
-final GEMINI_API_KEY = "AIzaSyDanIyGH2pQecuAixNeB_O67vFtQNngp8Y";
+final GEMINI_API_KEY = "Enter your Gemini API Key";
