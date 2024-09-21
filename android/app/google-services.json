@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "443168020544",
+    "project_id": "skynet-2eb58",
+    "storage_bucket": "skynet-2eb58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443168020544:android:d567c4347d2e71104367a5",
+        "android_client_info": {
+          "package_name": "com.ompatil.skynet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-RjUL9rHbu5-ZplTs0_3HahtV6eC5DmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
