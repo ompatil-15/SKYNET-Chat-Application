@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gemini/flutter_gemini.dart';
 import 'package:get_it/get_it.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:skynet/consts.dart';
 import 'package:skynet/services/auth_service.dart';
 import 'package:skynet/services/navigation_sevice.dart';
 import 'package:skynet/utils.dart';
 
 void main() async {
   await setup();
+  Gemini.init(
+    apiKey: GEMINI_API_KEY,
+  );
   runApp(MyApp());
 }
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:skynet/pages/gemini_page.dart';
 import 'package:skynet/pages/home_page.dart';
 import 'package:skynet/pages/login_page.dart';
 import 'package:skynet/pages/register_page.dart';
@@ -11,6 +11,7 @@ class NavigationService {
     "/login": (context) => LoginPage(),
     "/register": (context) => RegisterPage(),
     "/home": (context) => HomePage(),
+    "/gemini": (context) => GeminiPage(),
   };
 
   GlobalKey<NavigatorState>? get navigatorKey {

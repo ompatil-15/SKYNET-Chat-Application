@@ -69,7 +69,13 @@ class _HomePageState extends State<HomePage> {
           horizontal: 15.0,
           vertical: 20.0,
         ),
-        child: _chatsList(),
+        child: Column(
+          children: [
+            _geminiChat(),
+            const SizedBox(height: 20),
+            Expanded(child: _chatsList()),
+          ],
+        ),
       ),
     );
   }
@@ -123,6 +129,32 @@ class _HomePageState extends State<HomePage> {
           child: CircularProgressIndicator(),
         );
       },
+    );
+  }
+
+  Widget _geminiChat() {
+    return GestureDetector(
+      onTap: () {
+        _navigationService.pushNamed("/gemini");
+      },
+      child: Container(
+        padding: const EdgeInsets.all(15),
+        decoration: BoxDecoration(
+          color: Colors.blueAccent,
+          borderRadius: BorderRadius.circular(8),
+        ),
+        child: const Row(
+          children: [
+            Icon(Icons.star,
+                color: Colors.white), // Replace with your desired icon
+            SizedBox(width: 10),
+            Text(
+              "Gemini",
+              style: TextStyle(color: Colors.white, fontSize: 16),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
