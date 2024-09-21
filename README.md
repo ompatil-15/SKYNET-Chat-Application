@@ -26,4 +26,4 @@ Here are some screenshots of the application in action:
 
 ## Conclusion
 
-Skynet combines real-time messaging with modern features like Gemini API integration, making it more than just a chat app. With a clean, customizable interface and secure backend powered by Firebase, Skynet provides a strong foundation for further development and features.
+Skynet combines real-time messaging with modern features like Gemini API integration, making it more than just a chat app. With a clean, intuitive interface and secure backend powered by Firebase, Skynet provides a strong foundation for further development and features.
